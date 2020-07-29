@@ -1,0 +1,195 @@
+Code at greeting dialog node
+
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "Hello, Welcome to create web app developer company  currently there are vacancy to apply it check out the job lists"
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
+
+Vacancy Node 
+
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "We have the following opening at the movement: \n  1.Jr. Python developer \n 2.Sr. NodeJS developer \n  3.Sr.Angular developer "
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
+
+Apply Node
+
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "Great we are looking for python developer Thank you for selecting the job role ,please provide your email📧 Id "
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
+
+
+Email Node
+
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "Thank You please provide your LinkdIN Url"
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
+
+Link Node
+
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "Thank You please provide your LinkdIN Url"
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
+
+Experience Node
+Condition @ with experience
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "Great we will contact you through your e-mail & your profile will be updated within week Thank you for applying"
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
+
+Condition @ Fresher
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "Ho fine do you have done any project works, if done means say \"yes\" & enter the topic."
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
+
+pro Node
+
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "Good, do u have done any Intrenship."
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
+
+
+No Node
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "Thank You ,we will contact you soon"
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
+
+Intrenship Node
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "Nice about you Thank You future we will contact you through email"
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
+
+Thnak you Node
+{
+  "output": {
+    "generic": [
+      {
+        "values": [
+          {
+            "text": "It's our pleasure to have you"
+          }
+        ],
+        "response_type": "text",
+        "selection_policy": "sequential"
+      }
+    ]
+  }
+}
